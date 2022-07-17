@@ -1,5 +1,6 @@
 package page.lamht.docker1.springbootdocker.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,6 +8,7 @@ import page.lamht.docker1.springbootdocker.modal.Message;
 
 import java.util.Arrays;
 import java.util.List;
+@CrossOrigin
 @RestController @RequestMapping("/message")
 public class MessageController {
 
